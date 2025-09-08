@@ -1,0 +1,1250 @@
+[
+  {
+    "page": "LOGIN",
+    "key": "USERNAME_INPUT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט username input במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "PASSWORD_INPUT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט password input במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "LOGIN_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט login button במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "ERROR_MESSAGE",
+    "selector": "//android.widget.TextView[@resource-id=",
+    "description": "אלמנט error message במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "UNDERSTOOD_BUTTON",
+    "selector": "~הבנתי, תודה",
+    "description": "אלמנט understood button במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "ALLOW_PERMISSION_BUTTON",
+    "selector": "id:com.android.permissioncontroller:id/permission_allow_button",
+    "description": "אלמנט allow permission button במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "USER_AGREEMENT_CHECKBOX",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט user agreement checkbox במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "CONTINUE_BUTTON",
+    "selector": "~המשך",
+    "description": "אלמנט continue button במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "EXIT_FINGERPRINT_AUTH",
+    "selector": "~יציאה",
+    "description": "אלמנט exit fingerprint auth במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "STUB_POPUP",
+    "selector": "//*[@text=",
+    "description": "אלמנט stub popup במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "STUB_MAGIC_BTN",
+    "selector": "//*[@text=",
+    "description": "אלמנט stub magic btn במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "EDIT_USERS_BUTTON",
+    "selector": "~עריכת משתמשים",
+    "description": "אלמנט edit users button במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "CHANGE_USER_TEXT",
+    "selector": "~החלפת משתמש",
+    "description": "אלמנט change user text במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "CHANGE_USER_CONTAINER",
+    "selector": "(//android.widget.ScrollView)[last()]",
+    "description": "אלמנט change user container במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "LOGIN_WITH_OTHER_USER_BUTTON",
+    "selector": "~התחברות עם משתמש אחר",
+    "description": "אלמנט login with other user button במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "LAST_ACTIONS_CONTAINER",
+    "selector": "~פעולות מקודמות",
+    "description": "אלמנט last actions container במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "LEUMI_BONUS_BUTTON",
+    "selector": "//*[contains(@content-desc=",
+    "description": "אלמנט leumi bonus button במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "DATA_IN_TOUCH_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט data in touch button במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "CHEKS_DEPOSIT_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט cheks deposit button במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "MONEY_TRANSFER_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט money transfer button במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "MORTGAGE_REQUEST_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט mortgage request button במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "LOAN_GET_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט loan get button במסך login"
+  },
+  {
+    "page": "LOGIN",
+    "key": "CARDLESS_WITHDRAWAL_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט cardless withdrawal button במסך login"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "ENV_PRODUCTION",
+    "selector": "id:com.leumi.leumiwallet:id/setting_radio_prod",
+    "description": "אלמנט env production במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "ENV_HB5",
+    "selector": "id:com.leumi.leumiwallet:id/setting_radio_hb5",
+    "description": "אלמנט env hb5 במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "ENV_MESIRA",
+    "selector": "id:com.leumi.leumiwallet:id/setting_radio_mesira",
+    "description": "אלמנט env mesira במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "ENV_DEVELOPMENT",
+    "selector": "id:com.leumi.leumiwallet:id/setting_radio_dev",
+    "description": "אלמנט env development במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "ENV_STUB",
+    "selector": "id:com.leumi.leumiwallet:id/setting_radio_stub",
+    "description": "אלמנט env stub במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "ENV_MOCKINGBIRD",
+    "selector": "id:com.leumi.leumiwallet:id/checkBoxMockingBirdState",
+    "description": "אלמנט env mockingbird במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "GO_TO_APP_BUTTON",
+    "selector": "id:com.leumi.leumiwallet:id/go_to_app",
+    "description": "אלמנט go to app button במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "CLEAR_DATA_BUTTON",
+    "selector": "id:com.leumi.leumiwallet:id/button_clear_data",
+    "description": "אלמנט clear data button במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "BRAID_NUMBER_PICKER",
+    "selector": "id:com.leumi.leumiwallet:id/environment_spinner",
+    "description": "אלמנט braid number picker במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "BRAID_NUMBER_01",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט braid number 01 במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "BRAID_NUMBER_02",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט braid number 02 במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "BRAID_NUMBER_03",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט braid number 03 במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "BRAID_NUMBER_04",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט braid number 04 במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "BRAID_NUMBER_05",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט braid number 05 במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "BRAID_NUMBER_06",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט braid number 06 במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "BRAID_83BKX",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט braid 83bkx במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "BRAID_83BQ8",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט braid 83bq8 במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "BRAID_83BXL",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט braid 83bxl במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "BRAID_85B4A",
+    "selector": "//android.widget.TextView[@resource-id=",
+    "description": "אלמנט braid 85b4a במסך settings"
+  },
+  {
+    "page": "SETTINGS",
+    "key": "STUB_TEXT_BOX",
+    "selector": "id:com.leumi.leumiwallet:id/editTextLocalStubAddress",
+    "description": "אלמנט stub text box במסך settings"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "ACCOUNT_BALANCE",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט account balance במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "BALANCE_IN_OTHER_BANKS_TEXT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט balance in other banks text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "DATE_TEXT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט date text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "LAST_ACCOUNT_TRANSACTIONS_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט last account transactions button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "CREDIT_CARDS_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט credit cards button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "CREDIT_CARDS_BALACE_ILS_TEXT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט credit cards balace ils text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "CREDIT_CARDS_BALACE_USD_TEXT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט credit cards balace usd text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "FOREIGN_CURRENCY_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט foreign currency button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "FOREIGN_CURRENCY_ILS_TEXT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט foreign currency ils text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "FOREIGN_DEPOSITS_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט foreign deposits button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "FOREIGN_CURRENCLY_DEPOSITS_ILS_TEXT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט foreign currencly deposits ils text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "FOREIGN_LOANS_BUTTON",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט foreign loans button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "FOREIGN_LOANS_ILS_TEXT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט foreign loans ils text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "DEPOSITS_AND_SAVING_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט deposits and saving button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "DEPOSITS_AND_SAVING_ILS_TEXT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט deposits and saving ils text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "SECURITIES_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט securities button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "SECURITIES_ILS_TEXT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט securities ils text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "LOANS_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט loans button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "LOANS_ILS_TEXT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט loans ils text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "MORTGAGES_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט mortgages button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "MORTGAGES_ILS_TEXT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט mortgages ils text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "PROVIDENT_FUNDS_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט provident funds button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "PROVIDENT_FUNDS_ILS_TEXT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט provident funds ils text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "TRANSFERS_AND_PAYMENTS_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט transfers and payments button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "MONEY_TRANSFER_BUTTON",
+    "selector": "~העברת כסף",
+    "description": "אלמנט money transfer button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "CHECKS_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט checks button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "GUARANTEES_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט guarantees button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "SETTING_AND_PROFILE_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט setting and profile button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "MY_FINANCIAL_INFRO_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט my financial infro button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "CERTIFICATE_PRODUCTION_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט certificate production button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "MORE_ACTIONS_BUTTON",
+    "selector": "~פעולות נוספות",
+    "description": "אלמנט more actions button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "DEPOSIT_FOR_DEPOSIT_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט deposit for deposit button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "OVERVIEW_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט overview button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "FEED_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט feed button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "ACTIONS_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט actions button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "UPDATES_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט updates button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "CONTACT_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט contact button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "USER_DETAILS_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט user details button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "EDIT_ACCOUNT_DETAILS_BUTTON",
+    "selector": "~עריכת פרטי חשבון",
+    "description": "אלמנט edit account details button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "EDIT_ACCOUNT_DETAILS_TEXT",
+    "selector": "~עריכת פרטי חשבון",
+    "description": "אלמנט edit account details text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "BACK_BUTTON",
+    "selector": "~סגור",
+    "description": "אלמנט back button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "CHOOSE_ACCOUNT_TEXT",
+    "selector": "~בחירת חשבון",
+    "description": "אלמנט choose account text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "LOGOFF_APPLICATION_BUTTON",
+    "selector": "~התנתקות מהאפליקציה",
+    "description": "אלמנט logoff application button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "DO_YOU_WANT_TO_LOGOFF_TEXT",
+    "selector": "~האם ברצונך לצאת מהאפליקציה?",
+    "description": "אלמנט do you want to logoff text במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "YES_BUTTON",
+    "selector": "~כן",
+    "description": "אלמנט yes button במסך home_page"
+  },
+  {
+    "page": "HOME_PAGE",
+    "key": "NO_BUTTON",
+    "selector": "~לא",
+    "description": "אלמנט no button במסך home_page"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "CONTINUE_BUTTON",
+    "selector": "~המשך",
+    "description": "אלמנט continue button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "SKIP_BUTTON",
+    "selector": "~דלג",
+    "description": "אלמנט skip button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "UNDERSTOOD_BUTTON",
+    "selector": "~הבנתי, תודה",
+    "description": "אלמנט understood button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "FIRST_NAME_AND_LAST_NAME_INPUT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט first name and last name input במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "BENEFICIARYIES_LIST_CONTAINER",
+    "selector": "(//android.widget.ScrollView)[1]",
+    "description": "אלמנט beneficiaryies list container במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "BANK_BUTTON",
+    "selector": "~לחץ לבחירת בנק ",
+    "description": "אלמנט bank button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "SEARCH_BANK",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט search bank במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "BANK_LIST_CONTAINER",
+    "selector": "//android.widget.ScrollView[count(.//android.view.ViewGroup) >= 3 and .//*[@resource-id=",
+    "description": "אלמנט bank list container במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "POALIM_BANK_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט poalim bank button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "BRANCH_NUMBER_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט branch number button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "SEARCH_BRANCH",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט search branch במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "NATANIA_BRANCH_BUTTON",
+    "selector": "//*[@text=",
+    "description": "אלמנט natania branch button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "ACCOUNT_NUMBER_INPUT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט account number input במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "TRANSFER_AMOUNT_INPUT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט transfer amount input במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "TODAY_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט today button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "FUTURE_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט future button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "DIARY_BUTTON",
+    "selector": "//*[@text=",
+    "description": "אלמנט diary button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "NEXT_MONTH_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט next month button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "PREV_MONTH_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט prev month button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "CANCEL_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט cancel button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "CONFIRM_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט confirm button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "CYCLICAL_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט cyclical button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "CYCLICAL_DROPDOWN_BUTTON",
+    "selector": "//*[@text=",
+    "description": "אלמנט cyclical dropdown button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "OPTION_EVERY_MONTH",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט option every month במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "OPTION_EVERY_QUARTERLY",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט option every quarterly במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "OPTION_EVERY_WEEK",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט option every week במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "TRANSFER_PURPOSE_INPUT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט transfer purpose input במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "PAYMENT_OPTION",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט payment option במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "SALARY_OPTION",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט salary option במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "RENT_OPTION",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט rent option במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "EVENT_OPTION",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט event option במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "HOUSE_COMMITTEE_OPTION",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט house committee option במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "RETURN_MONEY_OPTION",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט return money option במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "AMONG_MY_ACCOUNTS_OPTION",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט among my accounts option במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "RELATIVE_OPTION",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט relative option במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "INCREASED_DETECTION_TITLE",
+    "selector": "~זיהוי מוגבר",
+    "description": "אלמנט increased detection title במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "CONFIRM_TRANSFER_BUTTON",
+    "selector": "~אישור וביצוע ההעברה",
+    "description": "אלמנט confirm transfer button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "IBAN_TRANSFER_BUTTON",
+    "selector": "~//*[contains(@content-desc,",
+    "description": "אלמנט iban transfer button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "FOREIGN_CURRENCY_TRANSFER_BUTTON",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט foreign currency transfer button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "TRANSFER_TO_CONTACT_BUTTON",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט transfer to contact button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "CARDLESS_CASH_WITHDRAWAL_BUTTON",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט cardless cash withdrawal button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "SEND_CASH_TO_CONTACT_BUTTON",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט send cash to contact button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "RETURN_CHECK_PAYMENT_BUTTON",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט return check payment button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "MANUAL_CHECK_PAYMENT_BUTTON",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט manual check payment button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "RELEASE_DIRECT_DEBIT_AUTHORIZATION_BUTTON",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט release direct debit authorization button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "MANAGE_DIRECT_DEBIT_AUTHORIZATIONS_BUTTON",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט manage direct debit authorizations button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "MANAGE_STANDING_ORDERS_BUTTON",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט manage standing orders button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "AMOUNT_FOR_CARDLESS_CASH_WITHDRAWAL_INPUT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט amount for cardless cash withdrawal input במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "WANT_CARDLESS_MORE_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט want cardless more button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "UPDATE_PHONE_NUMBER_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט update phone number button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "SEND_CODE_IN_VOICE_MESSAGE_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט send code in voice message button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "SEND_CODE_IN_SMS_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט send code in sms button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "LOCATING_NEARBY_ATM_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט locating nearby atm button במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "MAKE_SURE_DETAILS_ARE_CORRECT",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט make sure details are correct במסך money_transfer"
+  },
+  {
+    "page": "MONEY_TRANSFER",
+    "key": "FINISH_BUTTON",
+    "selector": "~סיום",
+    "description": "אלמנט finish button במסך money_transfer"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "SKIP_BUTTON",
+    "selector": "//*[@text=",
+    "description": "אלמנט skip button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "CONTINUE_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט continue button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "RETURN_BUTTON",
+    "selector": "~חזור",
+    "description": "אלמנט return button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "UNDERSTOOD_BUTTON",
+    "selector": "~הבנתי, תודה",
+    "description": "אלמנט understood button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "EXIT_BUTTON",
+    "selector": "~יציאה",
+    "description": "אלמנט exit button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "I_HAVE_MONEY_ASIDE_BUTTON",
+    "selector": "//*[@text=",
+    "description": "אלמנט i have money aside button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "MONTHLY_FIXED_DEPOSIT_BUTTON",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט monthly fixed deposit button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "SAVINGS_IN_TOUCH_BTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט savings in touch btton במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "MONTHLY_DEPOSIT_AMOUNT_INPUT",
+    "selector": "//android.widget.EditText[@content-desc=",
+    "description": "אלמנט monthly deposit amount input במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "FIXED_AMOUNT_OPTION",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט fixed amount option במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "LINKAGE_CUNSUMER_PRICE_OPTION",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט linkage cunsumer price option במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "SWITCH_BUTTON",
+    "selector": "//android.view.ViewGroup[@resource-id=",
+    "description": "אלמנט switch button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "FIRST_DEPOSIT_INPUT",
+    "selector": "//android.widget.EditText[@content-desc=",
+    "description": "אלמנט first deposit input במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "HOW_MATCH_TO_DEPOSIT_TEXT",
+    "selector": "//*[@text=",
+    "description": "אלמנט how match to deposit text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "AMOUNT_FOR_DEPOSIT_INPUT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט amount for deposit input במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "WHAT_YOU_PREFER_MORE_TEXT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט what you prefer more text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "DEPOSITS_LIST_CONTAINER",
+    "selector": "//android.widget.HorizontalScrollView",
+    "description": "אלמנט deposits list container במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "SEARCH_DEPOSIT_1_OF_5_BUTTON",
+    "selector": "//*[contains(@resource-id,",
+    "description": "אלמנט search deposit 1 of 5 button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "SEARCH_DEPOSIT_2_OF_5_BUTTON",
+    "selector": "//*[contains(@resource-id,",
+    "description": "אלמנט search deposit 2 of 5 button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "SEARCH_DEPOSIT_3_OF_5_BUTTON",
+    "selector": "//*[contains(@resource-id,",
+    "description": "אלמנט search deposit 3 of 5 button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "SEARCH_DEPOSIT_4_OF_5_BUTTON",
+    "selector": "//*[contains(@resource-id,",
+    "description": "אלמנט search deposit 4 of 5 button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "SEARCH_DEPOSIT_5_OF_5_BUTTON",
+    "selector": "//*[contains(@resource-id,",
+    "description": "אלמנט search deposit 5 of 5 button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "AVAILABLE_MONEY_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט available money button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "HIGH_INTEREST_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט high interest button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "DEPOSIT_CHARACTERISTICS_BUTTON",
+    "selector": "//*[@text=",
+    "description": "אלמנט deposit characteristics button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "CONTINUE_THIS_DEPOSIT_BUTTON",
+    "selector": "~המשך עם פיקדון זה",
+    "description": "אלמנט continue this deposit button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "DEPOSIT_DETAILS_BUTTON",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט deposit details button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "DEPOSIT_SELECT_BUTTON",
+    "selector": "//*[contains(@content-desc,",
+    "description": "אלמנט deposit select button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "INTEREST_FORMULA_TEXT",
+    "selector": "//*[contains(@resource-id, ",
+    "description": "אלמנט interest formula text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "INTEREST_RATE_TEXT",
+    "selector": "//*[contains(@resource-id, ",
+    "description": "אלמנט interest rate text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "INTEREST_LABEL_TEXT",
+    "selector": "//*[contains(@resource-id, ",
+    "description": "אלמנט interest label text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "EXIT_POINTS_TEXT",
+    "selector": "//*[contains(@resource-id, ",
+    "description": "אלמנט exit points text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "INTEREST_TYPE_TEXT",
+    "selector": "//*[contains(@resource-id, ",
+    "description": "אלמנט interest type text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "DEPOSIT_DURATION_TEXT",
+    "selector": "//*[contains(@resource-id, ",
+    "description": "אלמנט deposit duration text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "ABOUT_PRODUCT_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט about product button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "FIRST_ROUTE_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט first route button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "SECOND_ROUTE_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט second route button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "DATE_INPUT",
+    "selector": "//android.widget.EditText[@content-desc=",
+    "description": "אלמנט date input במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "DIARY_BUTTON",
+    "selector": "//*[@content-desc=",
+    "description": "אלמנט diary button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "NEXT_MONTH_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט next month button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "PREV_MONTH_BUTTON",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט prev month button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "HOW_TO_CALL_DEPOSIT_TEXT",
+    "selector": "~איך לקרוא לפיקדון?",
+    "description": "אלמנט how to call deposit text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "DEPOSIT_NAME_TEXT",
+    "selector": "//android.view.ViewGroup[@content-desc=",
+    "description": "אלמנט deposit name text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "DEPOSIT_NAME_INPUT",
+    "selector": "//*[@resource-id=",
+    "description": "אלמנט deposit name input במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "YOU_CAN_ALSO_CHOOSE_TEXT",
+    "selector": "//*[@text=",
+    "description": "אלמנט you can also choose text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "VACATION_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט vacation button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "WEDDING_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט wedding button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "CAR_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט car button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "EVENT_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט event button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "HOBBIES_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט hobbies button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "RAINY_DAY_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט rainy day button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "FOR_DISTANT_FUTURE_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט for distant future button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "STUDIES_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט studies button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "CHOOSE_DAY_2_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט choose day 2 button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "CHOOSE_DAY_10_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט choose day 10 button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "CHOOSE_DAY_15_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט choose day 15 button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "CHOOSE_OTHER_DAY_BUTTON",
+    "selector": "//*[contains(@content-desc, ",
+    "description": "אלמנט choose other day button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "DEPOSIT_PERIOD_TEXT",
+    "selector": "//*[contains(@text,",
+    "description": "אלמנט deposit period text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "ANNUAL_INTEREST_TO_PAID_TEXT",
+    "selector": "//*[@text=",
+    "description": "אלמנט annual interest to paid text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "AVAILABILITY_TEXT",
+    "selector": "//*[@text=",
+    "description": "אלמנט availability text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "CONFIRMATION_OF_DEPOSIT_DETAILS_TEXT",
+    "selector": "~אישור פרטי הפקדה לפיקדון",
+    "description": "אלמנט confirmation of deposit details text במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "FOR_FULL_DEPOSIT_DETAILS_BUTTON",
+    "selector": "~לפרטי הפיקדון המלאים >",
+    "description": "אלמנט for full deposit details button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "CONFIRMATION_BUTTON",
+    "selector": "~אישור",
+    "description": "אלמנט confirmation button במסך deposits_page"
+  },
+  {
+    "page": "DEPOSITS_PAGE",
+    "key": "FINISH_BUTTON",
+    "selector": "~סיום",
+    "description": "אלמנט finish button במסך deposits_page"
+  }
+]
