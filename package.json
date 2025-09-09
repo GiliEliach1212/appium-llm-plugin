@@ -1,26 +1,26 @@
 {
-  "name": "appium-llm-plugin",
-  "description": "An Appium 2 plugin that uses LLMs to find elements",
+  "name": "appium-llm-rag-plugin",
+  "description": "An Appium 2 plugin that uses LLMs with RAG to find elements",
   "tags": [
     "appium",
     "unity"
   ],
   "version": "0.0.5",
-  "author": "Jonathan Lipps <jlipps@headspin.io>",
+  "author": "Gili Eliach <gili.eliach@verisoft.co>",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/headspinio/appium-llm-plugin"
+    "url": "git+https://github.com/GiliEliach1212/appium-llm-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/headspinio/appium-llm-plugin/issues"
+    "url": "https://github.com/GiliEliach1212/appium-llm-plugin/issues"
   },
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8"
   },
   "appium": {
-    "pluginName": "llm",
+    "pluginName": "llm-find-element",
     "mainClass": "LLMPlugin"
   },
   "main": "./index.mjs",

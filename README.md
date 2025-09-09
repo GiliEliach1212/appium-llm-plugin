@@ -35,8 +35,8 @@ because sadly I'm not going to go into that here.
 ### Installation and activation
 
 ```
-appium plugin install --source=npm appium-llm-plugin
-appium --use-plugins=llm
+appium plugin install --source=npm appium-llm-rag-plugin
+appium --use-plugins=llm-find-element
 ```
 
 ### Capabilities
