@@ -1,5 +1,5 @@
 {
-  "name": "appium-llm-rag-plugin",
+  "name": "appium-llm-find-element-plugin",
   "description": "An Appium 2 plugin that uses LLMs with RAG to find elements",
   "tags": [
     "appium",
@@ -20,7 +20,7 @@
     "npm": ">=8"
   },
   "appium": {
-    "pluginName": "llm-find-element",
+    "pluginName": "appium-llm-find-element-plugin",
     "mainClass": "LLMPlugin"
   },
   "main": "./index.mjs",
