@@ -78,30 +78,57 @@ You can use this plugin in one of 3 modes:
 
 #### `screenshot` mode
 
-In this mode, when you make a find element request, a screenshot is sent to the model along with
-a prompt asking for it to determine the bounding box for your described element in the image.
-Appium will then return to you an "image element", which is a lightweight element reference that
-all you can do with is basically call `element.click()` on. If the AI did its job right, when you
-do that, you will have tapped on the element! Big if.
+In this mode, when you make a find element request, a screenshot is sent to the model along with a prompt asking for it to determine the bounding box for your described element in the image. Appium will then return to you an "image element", which is a lightweight element reference that all you can do with is basically call `element.click()` on. If the AI did its job right, when you do that, you will have tapped on the element! Big if.
+
+**Example:**
+```js
+const el = await driver.findElement('ai', "The button with the text 'Continue'")
+// Capabilities:
+// 'appium:llmQueryMode': 'screenshot'
+```
 
 #### `xml` mode
 
-In this mode, when you make a find element request, Appium will collect the page source XML and
-send it to the model, along with a request for an XPath selector to be derived from the XML based
-on your description of the element (so in this case, descriptions that include visual information
-not available in the XML source will be unhelpful). That XPath selector is then used internally to
-find you an element, using Appium's normal finding strategies. The element reference returned to
-you is a "normal" element you can do anything with. But is it the _right_ element? Who knows!
+In this mode, when you make a find element request, Appium will collect the page source XML and send it to the model, along with a request for an XPath selector to be derived from the XML based on your description of the element (so in this case, descriptions that include visual information not available in the XML source will be unhelpful). That XPath selector is then used internally to find you an element, using Appium's normal finding strategies. The element reference returned to you is a "normal" element you can do anything with. But is it the _right_ element? Who knows!
+
+**Example:**
+```js
+const el = await driver.findElement('ai', "The button with the text 'Continue'")
+// Capabilities:
+// 'appium:llmQueryMode': 'xml'
+```
 
 #### `xmlpos` mode
 
-In this mode, when you make a find element request, the XML source is sent to the model, just like
-in the `xml` mode. But the model is not asked to find an XPath selector. Instead, the model is
-asked to look at the XML element that hopefully matches what you want, and to get the bounding box
-(location) information from the XML attributes. Appium then turns that bounding box rect into an
-"image element" and sends it back to you. This is a lightweight type of element that doesn't
-actually refer to a UI element that you can do much with. All you can do is click it, hoping that
-the AI didn't hallucinate those coordinates!
+In this mode, when you make a find element request, the XML source is sent to the model, just like in the `xml` mode. But the model is not asked to find an XPath selector. Instead, the model is asked to look at the XML element that hopefully matches what you want, and to get the bounding box (location) information from the XML attributes. Appium then turns that bounding box rect into an "image element" and sends it back to you. This is a lightweight type of element that doesn't actually refer to a UI element that you can do much with. All you can do is click it, hoping that the AI didn't hallucinate those coordinates!
 
-This mode currently only works with Android, since I haven't gotten around to writing a prompt that
-works with iOS's page source XML structure yet (great first contribution for you!).
+**Example:**
+```js
+const el = await driver.findElement('ai', "The button with the text 'Continue'")
+// Capabilities:
+// 'appium:llmQueryMode': 'xmlpos'
+```
+
+#### `xml+image` mode
+
+In this mode, when you make a find element request, Appium will collect both the page source XML and a screenshot description (provided via the `appium:llmScreenshotDescription` capability), and send them to the model in a single prompt. The model is asked to use both sources of information to return the most accurate XPath selector for your described element. The element reference returned to you is a normal Appium element you can do anything with.
+
+**Example:**
+```js
+const el = await driver.findElement('ai', "The button with the text 'Continue'")
+// Capabilities:
+// 'appium:llmQueryMode': 'xml+image',
+// 'appium:llmScreenshotDescription': 'A screenshot showing a blue button labeled Continue at the bottom right.'
+```
+
+#### `xml-verify-image` mode
+
+In this mode, Appium first asks the model to find the element in the XML, and then to verify its correctness using the screenshot description (again provided via the `appium:llmScreenshotDescription` capability). If the model is not confident, it will return `{"xpath": null}` and Appium will throw a `NoSuchElementError`. The element reference returned to you is a normal Appium element if found.
+
+**Example:**
+```js
+const el = await driver.findElement('ai', "The button with the text 'Continue'")
+// Capabilities:
+// 'appium:llmQueryMode': 'xml-verify-image',
+// 'appium:llmScreenshotDescription': 'A screenshot showing a blue button labeled Continue at the bottom right.'
+```
