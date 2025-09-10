@@ -34,7 +34,25 @@ because sadly I'm not going to go into that here.
 
 ### Installation and activation
 
+#### Option 1: Install from GitHub (Recommended)
+
+```bash
+# Clone the repository
+git clone https://github.com/GiliEliach1212/appium-llm-plugin.git
+cd appium-llm-plugin
+
+# Install dependencies
+npm install
+
+# Install the plugin in Appium
+appium plugin install --source=local .
+
+# Run Appium with the plugin
+appium --use-plugins=llm-find-element
 ```
+
+#### Option 2: Direct install from GitHub (if published to npm)
+```bash
 appium plugin install --source=npm appium-llm-find-element-plugin
 appium --use-plugins=llm-find-element
 ```
@@ -63,6 +81,38 @@ will differ from client to client. In WebdriverIO, for example, you can do this:
 ```js
 const rawEl = await driver.findElement('ai', "Your element description here")
 const el = await driver.$(rawEl) // turn this into a "first class" element, which takes two lines for some reason
+```
+
+#### Complete Example
+
+```javascript
+const { remote } = require('webdriverio');
+
+const driver = await remote({
+  hostname: 'localhost',
+  port: 4723,
+  capabilities: {
+    platformName: 'Android',
+    'appium:deviceName': 'Android Emulator',
+    'appium:app': '/path/to/your/app.apk',
+    'appium:automationName': 'UiAutomator2',
+    
+    // LLM Plugin Configuration
+    'appium:llmModel': 'gpt-4o',
+    'appium:llmApiKey': 'your-openai-api-key',
+    'appium:llmQueryMode': 'xml', // or 'screenshot', 'xmlpos'
+    'appium:llmTemperature': 0.2
+  }
+});
+
+// Use natural language to find elements
+const loginButton = await driver.findElement('ai', 'The blue login button at the bottom');
+await loginButton.click();
+
+const usernameField = await driver.findElement('ai', 'The username input field');
+await usernameField.setValue('myusername');
+
+await driver.deleteSession();
 ```
 
 When you make the call to find an element using the `ai` locator strategy, the selector is just

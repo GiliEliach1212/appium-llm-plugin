@@ -1,5 +1,5 @@
 {
-  "name": "appium-llm-find-element-plugin",
+  "name": "llm-find-element",
   "description": "An Appium 2 plugin that uses LLMs with RAG to find elements",
   "tags": [
     "appium",
@@ -20,7 +20,7 @@
     "npm": ">=8"
   },
   "appium": {
-    "pluginName": "appium-llm-find-element-plugin",
+    "pluginName": "llm-find-element",
     "mainClass": "LLMPlugin"
   },
   "main": "./index.mjs",
@@ -50,7 +50,7 @@
     "eslint": "^9.3.0",
     "expect": "^29.7.0",
     "mocha": "^10.4.0",
-    "webdriverio": "^8.38.0"
+    "webdriverio": "^8.46.0"
   },
   "peerDependencies": {
     "appium": "^2.5.0"

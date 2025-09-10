@@ -2,3 +2,4 @@ node_modules
 image.b64
 test.xml
 aitest.mjs
+.DS_Store
